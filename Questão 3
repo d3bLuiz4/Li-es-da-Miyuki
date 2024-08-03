@@ -1,0 +1,9 @@
+r= int(input("Digite o raio da lata em centímetros: "))
+
+h= int(input("Digite a altura da lata: "))
+
+C= int(input("Digite o comprimento da lata: "))
+
+volume= h*r*C
+
+print("O volume é: ",'%.2f' %volume)
