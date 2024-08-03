@@ -1,0 +1,5 @@
+numero_de_coelhos= int(input("Digite o número de coelhos: "))
+
+custos= numero_de_coelhos*0.70/18+10
+
+print("valor:",'%.2f' %custos)
