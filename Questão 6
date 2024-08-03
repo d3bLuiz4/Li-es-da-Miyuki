@@ -1,0 +1,7 @@
+valor =  int(input("Coloque o valor da prestação: "))
+
+tempo = int(input("Escreva o tempo de atraso em dias: "))
+
+prestação = valor*tempo
+
+print("O valor a ser pago é: ", prestação)
